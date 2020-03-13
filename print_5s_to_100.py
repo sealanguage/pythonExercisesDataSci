@@ -1,5 +1,5 @@
-numbers = range(21)
+numbers = range(101)
 
 for number in numbers :
-    if number %2 != 0 :
+    if number %5 == 0 :
         print(number)
