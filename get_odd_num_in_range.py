@@ -11,4 +11,5 @@ for number in range(first_number, last_number + 1) :
             actual_nth_odd_num = number
             break
                 
-print(number)
+                
+print("nth_odd_num = ", actual_nth_odd_num)
