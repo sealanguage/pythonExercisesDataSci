@@ -98,12 +98,79 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 15,
    "metadata": {},
    "outputs": [],
    "source": [
-    "calculate_interest_curr"
+    "def calculate_interest_curr(balance = 1000, interest = 4, days = 100) :\n",
+    "    \"\"\"\n",
+    "    1. Balance: Amount on which balance needs to be calculated\n",
+    "    2. Interest: annual interest in percentage\n",
+    "    3. Days: numver of days since the beginning of the year\n",
+    "    \"\"\"\n",
+    "\n",
+    "    interest_amount = balance * (interest / 100) * (days/365)\n",
+    "    return interest_amount"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "54.794520547945204"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "calculate_interest_curr(2000, 5, 200)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def avg_grade(*grades) :\n",
+    "    for grade in grades:\n",
+    "        print(grade)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.2\n",
+      "3.25\n",
+      "4.0\n",
+      "3\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "avg_grade(2.2, 3.25, 4.0, 3.9)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
