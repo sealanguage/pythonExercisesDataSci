@@ -101,18 +101,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 52,
+   "execution_count": 56,
    "metadata": {},
    "outputs": [
     {
-     "ename": "ModuleNotFoundError",
-     "evalue": "No module named 'library'",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[0;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-52-8da9838c1322>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;31m# swapcase()\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0;32mimport\u001b[0m \u001b[0mlibrary\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0mstr\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m \u001b[0;34m\"input a string: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;31mModuleNotFoundError\u001b[0m: No module named 'library'"
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "input a string: HackerRank.com presents \"Pythonist 2\".\n",
+      "hACKERrANK.COM PRESENTS \"pYTHONIST 2\"."
      ]
     }
    ],
@@ -125,9 +122,8 @@
     "\n",
     "for i in str :\n",
     "    print(i.swapcase(), end = '')\n",
-    "    if i == str.punctuation : \n",
-    "        print(i, end = '')\n",
     "    \n",
+    "  \n",
     "    "
    ]
   },
