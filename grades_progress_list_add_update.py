@@ -67,6 +67,4 @@ while True :
             average = sum /len(grades)
         print("Average class grade is: ", average)
             
-            
-#     if(len(choice == 1)) :
-#         print( "Enter 'e' to exit" )
+
