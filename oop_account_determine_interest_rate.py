@@ -17,3 +17,8 @@ class Account:
         elif self.account_type == "savings":
             self.interest = 5
         return self.interest
+     
+
+
+acc = Account(2001)
+acc.interest_rate()     
