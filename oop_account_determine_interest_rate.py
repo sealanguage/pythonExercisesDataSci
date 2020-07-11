@@ -21,4 +21,6 @@ class Account:
 
 
 acc = Account(2001)
-acc.interest_rate()     
+acc.interest_rate()    
+
+isinstance(acc, Account)   # returns True if acc is an instance of the class Account 
