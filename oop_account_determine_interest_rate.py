@@ -20,7 +20,7 @@ class Account:
      
 
 
-acc = Account(2001)
-acc.interest_rate()    
+acc = Account(2001)   # creating an new instance of the class
+acc.interest_rate()    # returns the interest rate of acc
 
 isinstance(acc, Account)   # returns True if acc is an instance of the class Account 
